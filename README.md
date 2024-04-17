@@ -1,7 +1,7 @@
 
-# Anubhav Tees: Talk to a Database  
+# iRetailer: Talk to a Database  
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a system that can talk to MySQL database. 
+This is an end to end LLM project based on Google Palm and Langchain. Developed a system that can talk to MySQL database. 
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
 then executing that query on MySQL database. 
 Anubhav Tees is a T-shirt store where they maintain their inventory, sales and discounts data in MySQL database. A store manager 
@@ -33,7 +33,7 @@ The system is intelligent enough to generate accurate queries for given question
 2.Navigate to the project directory:
 
 ```bash
-  cd 4_sqldb_tshirts
+  cd iRetailer
 ```
 3. Install the required dependencies using pip:
 
@@ -45,7 +45,7 @@ The system is intelligent enough to generate accurate queries for given question
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
 ```
-5. For database setup, run database/db_creation_atliq_t_shirts.sql in your MySQL workbench
+5. For database setup, run database/db_creation_anubhav_t_shirts.sql in your MySQL workbench
 
 ## Usage
 
